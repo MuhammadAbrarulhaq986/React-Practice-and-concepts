@@ -1,6 +1,8 @@
 echo "# React-Practice-and-concepts" >> README.md
 git init
 git add README.md
+git add your file Name
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/MuhammadAbrarulhaq986/React-Practice-and-concepts.git
