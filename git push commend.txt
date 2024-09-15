@@ -7,3 +7,14 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/MuhammadAbrarulhaq986/React-Practice-and-concepts.git
 git push -u origin main
+
+
+
+
+
+
+git add your file Name
+git add .
+git commit -m "first commit"
+git branch -M main
+git push origin main

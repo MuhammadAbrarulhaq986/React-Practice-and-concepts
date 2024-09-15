@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   // const [counter, setCounter] = useState(5);
-  let [counter, setCounter] = useState(5);
+  let [counter, setCounter] = useState(0);
 
   // let counter = 5;
 
@@ -16,10 +16,21 @@ function App() {
 
     // setCounter(counter + 1);
 
-    if (counter < 20) {
-      setCounter(counter + 1);
+    if (counter < 99999) {
+      //* setCounter(counter + 1);
+      //* setCounter(counter + 1);
+      //* setCounter(counter + 1);
+      //* setCounter(counter + 1);
+      //* setCounter(counter + 1);
+      //* THE ABOVE CODE ONLY PLUS ONCE IN THE COUNTER
+
+      //* THIS CODE WILL PLUS ALL THE LINES AND PRINT
+      //* FOR EXAMPLE THIS LINE IS REPETED 5 TIMES // setCounter((prevCounter) => prevCounter + 1);
+      //* THE COUNT WILL BE 5
+      setCounter((prevCounter) => prevCounter + 1);
+
     } else {
-      alert("Counter is 20");
+      alert("Counter is 99999");
       setCounter((counter = 0));
     }
   };
